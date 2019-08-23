@@ -6,7 +6,6 @@ lists = {
 
 it = input('Count< WIDTH: ')
 for key, value in lists.items():
-    
     if it == key:
         print(key + ': ' + str(value))
     va = str(value)
