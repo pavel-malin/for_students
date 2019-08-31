@@ -17,8 +17,7 @@ class List_list():
             print(self.key + ': ' + str(self.value))
 
     def floats(self):
-        va = str(self.value)
-        if self.it == va:
+        if self.it == str(self.value):
             print(self.key + ': ' + str(self.value))
 
 listss = List_list()

@@ -9,8 +9,8 @@ def tuple_list():
     for key, value in lists.items():
         if it == key:
             print(key + ': ' + str(value))
-        va = str(value)
-        if it == va:
+
+        if it == str(value):
             print(key + ': ' + str(value))
     
 tuple_list()
