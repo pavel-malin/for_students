@@ -1,10 +1,10 @@
 lists = {
     'Австралия': 127.0,
     'Австрия': 47.2,
-    'Алжир':28.0, 
+    'Алжир': 28.0,
     }
 
-class List_list():
+class List_list:
     def __init__(self):
         self.lists = lists
         self.it = input('count: ')

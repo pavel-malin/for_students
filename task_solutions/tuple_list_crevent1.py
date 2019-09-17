@@ -1,8 +1,9 @@
 lists = {
     'Австралия': 127.0,
     'Австрия': 47.2,
-    'Алжир': 28.0, 
+    'Алжир': 28.0,
     }
+
 
 def tuple_list():
     it = input('Count< WIDTH: ')
@@ -12,5 +13,6 @@ def tuple_list():
 
         if it == str(value):
             print(key + ': ' + str(value))
-    
+
+
 tuple_list()
